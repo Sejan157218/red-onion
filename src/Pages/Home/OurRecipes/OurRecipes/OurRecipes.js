@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Row } from 'react-bootstrap';
 import useDataBreakfast from '../../../../hooks/data/useDataBreakfast';
 import useDataDinner from '../../../../hooks/data/useDataDinner';
 import useDataLunch from '../../../../hooks/data/useDataLunch';
@@ -13,15 +14,14 @@ const OurRecipes = () => {
     const [lunchData] = useDataLunch();
     const [breakfastData] = useDataBreakfast();
     const [dinnerData] = useDataDinner();
-    console.log(breakfastData);
     return (
-        <div className="mt-3 ">
+        <div className="my-5 container m">
             <div className="mb-4 text-center">
                 <button className="btn-recipe" onClick={() => setActive('breakfast')}>Breakfast</button>
                 <button className="btn-recipe" onClick={() => setActive('lunch')}>lunch</button>
                 <button className="btn-recipe" onClick={() => setActive('dinner')}>Dinner</button>
             </div>
-            <div>
+            <Row xs={1} md={3} className="g-4 container">
                 {
                     active === 'lunch' && lunchData.map(lunch => <Lunch key={lunch.key} lunch={lunch}></Lunch>)
                 }
@@ -31,7 +31,7 @@ const OurRecipes = () => {
                 {
                     active === 'dinner' && dinnerData.map(dinner => <Dinner key={dinner.key} dinner={dinner}></Dinner>)
                 }
-            </div>
+            </Row>
 
         </div>
     );
