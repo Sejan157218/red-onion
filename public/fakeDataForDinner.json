@@ -1,0 +1,50 @@
+[
+    {
+        "key": "dinner1",
+        "name": "Salmon With GrapeFruit and lentil Salad",
+        "title": "Fresh and Delicious",
+        "desc": "Salmon and lentils are a familiar combo in French bistro cooking; here they combine in a quick and easy salad. For the best presentation, flake the salmon with a fork, then stir gently into the salad to keep it in chunks, not tiny bits.",
+        "img": "https://i.ibb.co/k6LTCQ1/dinner6.png",
+        "price": 9.99
+    },
+    {
+        "key": "dinner2",
+        "name": "Lemony Salmon Piccata",
+        "title": "Fresh and Delicious",
+        "desc": "I'm sure you have tried traditional chicken piccata, but have you ever switched out the chicken for fish? Salmon is rich in omega-3 fatty acids and B Vitamins. It is also a great source of protein and potassium. Eating salmon on a regular basis may help prevent heart disease as well because it balances the number of fatty acids in your body. If you enjoy chicken piccata, you are going to love this healthy alternative.",
+        "img": "https://i.ibb.co/r4HS6M4/dinner2.png",
+        "price": 10.99
+    },
+    {
+        "key": "dinner3",
+        "name": "Pork Tenderloin With Quinoa pilaf",
+        "title": "Fresh and Delicious",
+        "desc": "This tangy-meets-sweet combo of vinegar, marmalade, and mustard is also great for basting chicken or pork chops.Heat 1 Tbsp oil in a medium saucepan on medium. Add garlic and cook, stirring occasionally, until toasted, about 2 minutes. Add quinoa and cook per pkg. directions. Fluff with a fork and fold in spinach. ",
+        "img": "https://i.ibb.co/QN92mpc/dinner5.png",
+        "price": 12.99
+    },
+    {
+        "key": "dinner4",
+        "name": "French Fries With Cheese",
+        "title": "Fresh and Delicious",
+        "desc": "These cheese fries are crispy french fries topped two types of melted cheese, smoky bacon and fresh herbs. A hearty appetizer option that takes just minutes to put together and is always a big hit!",
+        "img": "https://i.ibb.co/ngwK12y/dinner4.png",
+        "price": 8.99
+    },
+    {
+        "key": "dinner5",
+        "name": "Garlic Butter Banked SaLmon",
+        "title": "Fresh and Delicious",
+        "desc": "Tender garlic butter baked salmon with crispy roast potatoes, asparagus and a delicious garlic butter sauce! all baked on a sheet pan for an easy dinner.",
+        "img": "https://i.ibb.co/C7gw1fY/dinner3.png",
+        "price": 6.99
+    },
+    {
+        "key": "dinner6",
+        "name": "Baked Chicken",
+        "title": "Fresh and Delicious",
+        "desc": "Baking your chicken is a great weeknight dinner option, especially if you're trying to lose weight. In addition to being low in fat and calories, baked chicken is rich in important nutrients. Stir-fried chicken. Try stir-frying chicken with a bit of oil and your favorite veggies for a high fiber, protein-packed meal",
+        "img": "https://i.ibb.co/hMBNwd4/dinner1.png",
+        "price": 9.99
+    }
+]

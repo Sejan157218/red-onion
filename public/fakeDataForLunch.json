@@ -1,0 +1,50 @@
+[
+    {
+        "key": "lunch1",
+        "name": "Healthy Meal plan",
+        "title": "Fresh and Delicious",
+        "desc": "We've got hundreds of delicious recipes for every taste and dietary preference. Browse them all using our Search and Filter tools and choose the ones that are right for you",
+        "img": "https://i.ibb.co/cgfvNZR/lunch6.png",
+        "price": 23.99
+    },
+    {
+        "key": "lunch2",
+        "name": "Fried Chicken Bento",
+        "title": "Fresh and Delicious",
+        "desc": "Cut chicken thigh to bite-size pieces and put in a plastic bag. Combine curry powder, sugar, grated garlic, grated ginger, soy sauce, and sake, and rub well. Marinate for 1 hour in the fridge.",
+        "img": "https://i.ibb.co/NLmF14t/lunch5.png",
+        "price": 9.99
+    },
+    {
+        "key": "lunch3",
+        "name": "tarragon-Rubbed-Salmon",
+        "title": "Fresh and Delicious",
+        "desc": "Cooking fish on the skin side, which protects the meat from direct heat, leaves it so moist and tender that I can’t quite imagine any other way to cook it. In the case of salmon, you are also left with strips of golden skin that are shatteringly crisp and delectable. To finish here, add a bit of melted butter, a squeeze of lemon juice, a shower of freshly minced tarragon, and voila! This makes for quite a lunch or supper, particularly when you serve it with basic grilled leeks and a chilled Saumur- Champigny",
+        "img": "https://i.ibb.co/61pV8Ks/lunch3.png",
+        "price": 6.99
+    },
+    {
+        "key": "lunch4",
+        "name": "Indian Lunch",
+        "title": "Fresh and Delicious",
+        "desc": "Lunch recipes - A collection of over 205 vegetarian, healthy, delicious & easy Indian lunch box recipes like curry, parathas, pulaos, biryanis, fried rice.",
+        "img": "https://i.ibb.co/yhgNxnr/lunch4.png",
+        "price": 8.99
+    },
+    {
+        "key": "lunch5",
+        "name": "Beef steak",
+        "title": "Fresh and Delicious",
+        "desc": "This is just an excellent beef steak marinade that adds juiciness and flavour into steaks, transforming economical steaks from just ok to “wow!”. It injects extra flavour without overpowering the natural flavour of beef, and makes the meat tender.",
+        "img": "https://i.ibb.co/WVK9XN1/lunch1.png",
+        "price": 15.99
+    },
+    {
+        "key": "lunch6",
+        "name": "Honey-Soy-Glazed Salmon with Peppers",
+        "title": "Fresh and Delicious",
+        "desc": "Two words: honey salmon! Sure, it takes a tiny bit of prep work, but once you marinate your salmon, you won’t be able to go back. A simple mix of honey, soy sauce, garlic, and ginger coats and flavors your fish for 30 minutes before you throw it on the pan until the outside is perfectly crispy. Once that’s done, you heat up and reduce some extra marinade to make a thick, to-die-for glaze to pour over your filet. Serve with your favorite veggies or rice and enjoy!",
+        "img": "https://i.ibb.co/yhYqLt9/lunch2.png",
+        "price": 7.99
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "key": "breakfast1",
+        "name": "Bagel and Cream Chess",
+        "title": "Fresh and Delicious",
+        "desc": "Mix Puck Cream cheese spread with the garlic and the diced chives. · Spread a generous amount of the cream cheese mixture on the base of the bagel",
+        "img": "https://i.ibb.co/rMcQJv3/breakfast4.png",
+        "price": 6.99
+    },
+    {
+        "key": "breakfast2",
+        "name": "Breakfast Sandwich",
+        "title": "Fresh and Delicious",
+        "desc": "we’re all about these breakfast sandwich recipes—the possibilities are endless! Are you a bagel lover? English muffin diehard? Classic classic egg ’n’ cheese? Whatever you’re craving, we’ve got something here that’ll fill any breakfast-sandwich-shaped holes in your heart. I’m talking about the green goddess sandwich that’s zingy, hearty, and packed with a (subjectively) serious amount of your daily veg needs",
+        "img": "https://i.ibb.co/9h5CDqp/breakfast2.png",
+        "price": 9.99
+    },
+    {
+        "key": "breakfast3",
+        "name": "Baked Chicken",
+        "title": "Fresh and Delicious",
+        "desc": "Boneless, skinless chicken breasts: You can either purchased fresh (my preference) or frozen (which you will need to completely thaw before using). Some chicken also comes pre-brined nowadays, in which case you can skip step one below.",
+        "img": "https://i.ibb.co/pPyjJ8X/breakfast3.png",
+        "price": 10.99
+    },
+    {
+        "key": "breakfast4",
+        "name": "Eggs Benedict",
+        "title": "Fresh and Delicious",
+        "desc": "According to Delmonico's legend, eggs Benedict was created for and named after restaurant regulars Mr. and Mrs. LeGrand Benedict in the 1860s. ... It includes thousands of recipes, many of which were created by Ranhofer and served at Delmonico's",
+        "img": "https://i.ibb.co/L0FzFm8/breakfast1.png",
+        "price": 8.99
+    },
+    {
+        "key": "breakfast5",
+        "name": "Toast Croissant Fried Egg",
+        "title": "Fresh and Delicious",
+        "desc": "Take your breakfast sandwich up a notch by using our Croissants as the base! Nothing makes a sandwich feel fancier, or taste better than a croissant sandwich. The rich, buttery pastry complements breakfast food perfectly.",
+        "img": "https://i.ibb.co/TYzhWWT/breakfast6.png",
+        "price": 19.99
+    },
+    {
+        "key": "breakfast6",
+        "name": "Full Breakfast Fried Egg Toast Brunch",
+        "title": "Fresh and Delicious",
+        "desc": "The full English breakfast often consists of bacon, fried egg, sausage, mushrooms, baked beans, toast, grilled tomatoes, and accompanied with tea or coffee.[1]",
+        "img": "https://i.ibb.co/Mcy0WL4/breakfast5.png",
+        "price": 3.99
+    }
+]

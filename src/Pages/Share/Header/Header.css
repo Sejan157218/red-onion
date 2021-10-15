@@ -1,0 +1,21 @@
+.logo-header{
+    max-width: 20%;
+    height: auto;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: #e51a4b;
+}
+.btn-header{
+    background-color: #e51a4b;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 15px;
+}
+.btn-header:hover{
+    background-color: #da3f5c;
+    color: #ffff;
+}
