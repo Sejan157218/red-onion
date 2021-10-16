@@ -1,52 +1,50 @@
 import React from 'react';
-import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
-import footerImg from '../../../Images/logo2.png'
+import { Col, Container, Nav, Row } from 'react-bootstrap';
+import footerImg from '../../../Images/logo.png';
+import "./Footer.css"
 
 const Footer = () => {
     return (
-        <Container className="mb-5">
-            <Row>
-                <Col sm={8} xs={4}><img src={footerImg} alt="footer-logo" /></Col>
-                <Col sm={2} xs={4}>
-                    <Nav className="flex-column">
-                        <Nav.Link >Active</Nav.Link>
-                        <Nav.Link >Link</Nav.Link>
-                        <Nav.Link >Link</Nav.Link>
-                        <Nav.Link >
-                            Disabled
-                        </Nav.Link>
-                    </Nav>
+        <div className="footer-container">
+            <Container className="py-5">
+                <Row>
+                    <Col sm={6} xs={12}><img style={{ width: '10rem' }} src={footerImg} alt="footer-logo" /></Col>
+                    <Col sm={3} xs={6}>
+                        <Nav className="flex-column content-footer">
+                            <Nav.Link >About online food</Nav.Link>
+                            <Nav.Link >Read our blog</Nav.Link>
+                            <Nav.Link >Sign up to deliver</Nav.Link>
+                            <Nav.Link >Add your restaurant</Nav.Link>
+                           
+                        </Nav>
 
-                </Col>
-                <Col sm={2} xs={4}>
-                    <Nav className="flex-column">
-                        <Nav.Link >Active</Nav.Link>
-                        <Nav.Link >Link</Nav.Link>
-                        <Nav.Link >Link</Nav.Link>
-                        <Nav.Link >
-                            Disabled
-                        </Nav.Link>
-                    </Nav>
-                </Col>
-            </Row>
+                    </Col>
+                    <Col sm={3} xs={6}>
+                        <Nav className="flex-column content-footer">
+                            <Nav.Link >Get help</Nav.Link>
+                            <Nav.Link >Read FAQs</Nav.Link>
+                            <Nav.Link >View all cities</Nav.Link>
+                            <Nav.Link >Restaurants near me</Nav.Link>
 
-            <Row >
-                <Col xs={8} className="d-flex align-items-center">
-                    <p className="mb-0">this is footer</p>
-                </Col>
-                <Col xs={4}>
-                    <Nav >
-                        <Nav.Link >Active</Nav.Link>
-                        <Nav.Link >Link</Nav.Link>
-                        <Nav.Link >Link</Nav.Link>
-                        <Nav.Link >
-                            Disabled
-                        </Nav.Link>
-                    </Nav>
-                </Col>
+                        </Nav>
+                    </Col>
+                </Row>
 
-            </Row>
-        </Container>
+                <Row className="mt-5">
+                    <Col sm={7} xs={12} className="d-flex align-items-center">
+                        <p className="mb-0">Copyright © 2021 RED ONION by Sejan Mahmud</p>
+                    </Col>
+                    <Col sm={5} xs={12}>
+                        <Nav className="content-footer">
+                            <Nav.Link className="me-2">Privacy Policy.</Nav.Link>
+                            <Nav.Link className="me-2">Terms of Use </Nav.Link>
+                            <Nav.Link className="me-2">Pricing</Nav.Link>
+                        </Nav>
+                    </Col>
+
+                </Row>
+            </Container>
+        </div>
     );
 };
 

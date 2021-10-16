@@ -3,7 +3,7 @@ import { Card, Col } from 'react-bootstrap';
 
 const Dinner = ({dinner}) => {
     return (
-        <Col>
+        <Col className="recipe-contain">
         <Card style={{ width: '20.5rem', textAlign: 'center', paddingTop: "1rem", border: "none" }}>
             <Card.Img style={{ width: '12rem', margin: 'auto', height: '12rem' }} variant="top" src={dinner?.img} />
             <Card.Body>

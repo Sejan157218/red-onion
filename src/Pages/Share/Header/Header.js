@@ -13,7 +13,7 @@ const Header = () => {
                     <img className="logo-header" src={logo} alt='logo' />
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link href="#features"><i class="fas fa-shopping-cart"></i></Nav.Link>
+                        <Nav.Link href="#features"><i className="fas fa-shopping-cart"></i></Nav.Link>
                         <Nav.Link href="#pricing">Login</Nav.Link>
                         <button className="btn-header">Sign Up</button>
                     </Navbar.Collapse>

@@ -4,7 +4,7 @@ import "./Lunch.css"
 
 const Lunch = ({ lunch }) => {
     return (
-        <Col>
+        <Col className="recipe-contain">
             <Card style={{ width: '20.5rem', textAlign: 'center', paddingTop: "1rem", border: "none" }}>
                 <Card.Img style={{ width: '12rem', margin: 'auto', height: '12rem' }} variant="top" src={lunch?.img} />
                 <Card.Body>

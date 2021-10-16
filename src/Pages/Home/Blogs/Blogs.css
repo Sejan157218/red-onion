@@ -1,0 +1,32 @@
+
+.blog-icon{
+    background-color: #e51a4b;
+    color: white;
+    padding: .50rem;
+    border-radius: 50%;
+}
+.seemore-btn{
+    font-weight: 500;
+    border: none;
+    color: #5C7FF7;
+    background-color: white;
+}
+.seemore-icon{
+    background-color: #19E270;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.blog-img{
+    width: 22rem;
+    height: 20rem;
+}
+.blog-img:hover{
+    height: 24rem;
+    
+}
+
+.blog-p{
+    text-align: justify;
+}

@@ -1,25 +1,32 @@
 import React, { useState } from 'react';
 import { Row } from 'react-bootstrap';
-import useDataBreakfast from '../../../../hooks/data/useDataBreakfast';
-import useDataDinner from '../../../../hooks/data/useDataDinner';
-import useDataLunch from '../../../../hooks/data/useDataLunch';
+import useData from '../../../../hooks/data/useData';
 import BreakFast from '../BreakFast/BreakFast';
 import Dinner from '../Dinner/Dinner';
 import Lunch from '../Lunch/Lunch';
+
 
 import './OurRecipes.css'
 
 const OurRecipes = () => {
     const [active, setActive] = useState('lunch');
-    const [lunchData] = useDataLunch();
-    const [breakfastData] = useDataBreakfast();
-    const [dinnerData] = useDataDinner();
+    const [lunchData,breakfastData,dinnerData] = useData();
     return (
         <div className="my-5 container m">
             <div className="mb-4 text-center">
-                <button className="btn-recipe" onClick={() => setActive('breakfast')}>Breakfast</button>
-                <button className="btn-recipe" onClick={() => setActive('lunch')}>lunch</button>
-                <button className="btn-recipe" onClick={() => setActive('dinner')}>Dinner</button>
+               {
+                   active === 'breakfast'  ? <button className="btn-recipe active-btn" onClick={() => setActive('breakfast')}>Breakfast</button> :
+                   <button className="btn-recipe" onClick={() => setActive('breakfast')}>Breakfast</button>
+               }
+               {
+                   active === 'lunch'  ? <button className="btn-recipe active-btn" onClick={() => setActive('lunch')}>Lunch</button> :
+                   <button className="btn-recipe" onClick={() => setActive('lunch')}>Lunch</button>
+               }
+               {
+                   active === 'dinner' ? <button className="btn-recipe active-btn" onClick={() => setActive('dinner')}>Dinner</button> :
+                   <button className="btn-recipe" onClick={() => setActive('dinner')}>Dinner</button>
+               }
+                
             </div>
             <Row xs={1} md={3} className="g-4 container">
                 {
